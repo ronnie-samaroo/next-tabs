@@ -1,0 +1,32 @@
+.container
+    max-width: 1920px !important
+    padding-right: 30px !important
+    padding-left: 30px !important
+    &::after,
+    &::before
+        opacity: 0.3
+        z-index: -10
+        position: fixed
+        left: 42%
+        top: 0
+        content: ''
+        width: 130px
+        height: 100%
+        transform: translateX(-50%)
+    &::after
+        left: 58%
+html[data-theme='light']
+    .container
+      &::after,
+        &::before
+            opacity: .8
+.tab
+    display: flex
+    justify-content: space-between
+
+@media screen  and (min-width: 1200px)
+    .container 
+        width: 100% !important
+        margin: auto !important
+        padding-left: 15px !important
+        padding-right: 15px !important

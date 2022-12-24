@@ -1,0 +1,76 @@
+@import '../styles/variables'
+
+
+html[data-theme='dark'],:root
+  --color-page-background: #{$bg-color}
+  --color-text: #{$text}
+html[data-theme='light']
+  --color-page-background: #{$text}
+  --color-text: #{$bg-color}
+
+    
+
+body[data-color='green'],:root
+  --main-color: #{$green}
+  $main-color-trans: rgba($green,$trans-ratio)
+  --main-color-trans: #{$main-color-trans}
+body[data-color='green']
+  --main-color: #{$green}
+  $main-color-trans: rgba($green,$trans-ratio)
+  --main-color-trans: #{$main-color-trans}
+body[data-color='red']
+  --main-color: #{$red}
+  $main-color-trans: rgba($red,$trans-ratio)
+  --main-color-trans: #{$main-color-trans}
+
+body
+    font-family: $main-font
+    font-weight: $font-weight
+    font-size: $f-size
+    position: relative
+    background-color: var(--color-page-background)
+    color: var(--color-text)
+    overflow-x: hidden !important
+ul
+    padding: 0
+    margin: 0
+    list-style: none
+a
+    text-decoration: none
+.green
+  background: $green !important
+.red    
+  background: $red !important
+.green 
+  background: $green !important
+
+::-webkit-scrollbar 
+  width: 2px
+::-webkit-scrollbar-track 
+  background: var(--color-page-background)
+::-webkit-scrollbar-thumb 
+  background: var(--main-color)
+
+
+.container
+  max-width: 1920px
+  padding-right: 15px
+  padding-left: 15px
+.portfolio.aos-animate
+  &::after
+    height: 100px
+
+
+@media screen  and (min-width: 1200px)
+    .container 
+      width: 100%
+      padding-left: 65px
+      padding-right: 65px
+@media screen and (max-width: 767px)
+  .sec-title
+    font-size: 1.6rem !important
+    &::after
+        display: none
+    span
+        font-size: 2.5rem !important
+        margin-right: .5rem

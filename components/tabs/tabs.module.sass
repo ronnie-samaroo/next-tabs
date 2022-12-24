@@ -1,0 +1,67 @@
+.dashboard
+    border: 1px solid #aaa
+    position: relative
+    border-radius: 10px
+    height: 350px
+    width: 49%
+    .icons_item
+        border: none
+        border-bottom: 2px solid #aaa
+        padding-bottom: 5px
+        text-transform: uppercase
+        background: none
+        width: 33.333%
+        font-size: 14px
+        font-weight: 600
+        color: #555
+        &:hover
+            color: green
+    .active
+        color: green
+        border-bottom: 2px solid green
+        transition: all ease 0.5s
+    .content
+        width: 100%
+        height: 200px
+        overflow: auto
+        .new
+            color: green
+    table
+        width: 100%
+    th, td
+        width: 25%
+    th
+        text-transform: uppercase
+        font-size: 14px
+    tr
+        padding: 5px
+        display: flex
+    tbody > tr:nth-child(2n+1)
+        background: #eee
+    tbody > tr:hover
+            background: #eee
+            cursor: pointer
+            transition: all ease 0.3s
+        
+.welcome
+    position: relative
+    border: 1px solid #aaa
+    border-radius: 10px
+    height: 350px
+    width: 49%
+    .content
+        overflow: auto
+        height: 100%
+        padding-right: 15px
+        color: #555
+        p
+            font-size: 14px
+            font-weight: 500
+.title
+    position: absolute
+    text-transform: uppercase
+    top: -20px
+    background: white
+    display: inline-block
+    padding: 10px
+    font-weight: 600
