@@ -7,7 +7,7 @@ import { TabDashboard, TabWelcome } from "../components/tabs";
 
 export default function App(props) {
   const { theme } = useTheme();
-  const [activeTab, setActiveTab] = useState("approvals");
+  const [userId, setUserId] = useState(null);
   return (
     <>
       <Head>
@@ -35,12 +35,8 @@ export default function App(props) {
       <main id="app-main" className={styles.container}>
         <div className="row">
           <div className={`${styles.tab} mt-5`}>
-            <TabDashboard
-              data={props.tabs}
-              active={activeTab}
-              setActive={setActiveTab}
-            />
-            <TabWelcome data={props.tabs} active={activeTab} />
+            <TabDashboard data={props.tabs} setUserId={setUserId} />
+            <TabWelcome data={props.users} userId={userId} />
           </div>
         </div>
       </main>
