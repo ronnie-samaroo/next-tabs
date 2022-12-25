@@ -7,29 +7,28 @@
         {
           "id": 243,
           "name": "Maria",
-          "status": true,
+          "status": "New",
           "date": "25.12.2022 - 14:23"
         },
         {
           "id": 247,
           "name": "Andrea",
-          "status": true,
+          "status": "New",
           "date": "25.12.2022 - 23:41"
         },
         {
           "id": 298,
           "name": "Elle90",
-          "status": false,
+          "status": "Old",
           "date": "25.12.2022 - 20:15"
         },
         {
           "id": 109,
           "name": "Helen",
-          "status": true,
+          "status": "New",
           "date": "21.12.2022 - 17:50"
         }
-      ],
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue mauris sed diam luctus consequat. Cras eu consectetur sapien. Donec dignissim vitae massa eu porta. Ut odio massa, accumsan placerat nunc eget, fermentum egestas diam. Phasellus sagittis lorem eu massa consequat porttitor. In id ullamcorper neque. Maecenas semper mi eget mi imperdiet, eu auctor nibg aliquet. Sed a porta nunc."
+      ]
     },
     {
       "id": 2,
@@ -38,54 +37,52 @@
         {
           "id": 255,
           "name": "User1",
-          "status": true,
+          "status": "New",
           "date": "25.11.2022 - 11:23"
         },
         {
           "id": 257,
           "name": "User2",
-          "status": false,
+          "status": "Old",
           "date": "22.12.2022 - 22:41"
         },
         {
           "id": 292,
           "name": "User3",
-          "status": false,
+          "status": "Old",
           "date": "23.11.2022 - 20:15"
         },
         {
           "id": 102,
           "name": "User4",
-          "status": true,
+          "status": "New",
           "date": "17.12.2022 - 15:25"
         }
-      ],
-      "content": "This is verification tab's content"
+      ]
     },
     {
       "id": 3,
       "title": "requests & reports",
       "dashboard": [
         {
-          "id": 255,
+          "id": 215,
           "name": "User5",
-          "status": false,
+          "status": "Old",
           "date": "25.11.2022 - 11:23"
         },
         {
-          "id": 257,
+          "id": 209,
           "name": "User6",
-          "status": true,
+          "status": "New",
           "date": "22.12.2022 - 22:41"
         },
         {
-          "id": 292,
+          "id": 122,
           "name": "User7",
-          "status": true,
+          "status": "New",
           "date": "23.11.2022 - 20:15"
         }
-      ],
-      "content": "This is Requests & Reports tab's content"
+      ]
     }
   ],
   "name": "tabs"
