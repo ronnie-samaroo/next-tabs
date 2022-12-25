@@ -1,5 +1,4 @@
 export const UserInfo = ({ activeTab, user }) => {
-  console.log(user, activeTab);
   return (
     <>
       <span>User {activeTab} : </span>
