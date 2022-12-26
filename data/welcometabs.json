@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "name"
+    },
+    {
+      "id": 2,
+      "title": "status"
+    },
+    {
+      "id": 3,
+      "title": "date"
+    }
+  ],
+  "name": "welcome_tabs"
+}

@@ -1,21 +1,22 @@
 import { useState } from "react";
 import styles from "./tabs.module.sass";
 
-export const TabDashboard = ({ data, active, setUserId }) => {
+export const TabDashboard = ({ tabs, users, setUserId }) => {
   const [activeTab, setActiveTab] = useState("approvals");
   const handleTabClick = (id) => {
     setActiveTab(id);
   };
-  const activeData = data?.data.filter((tab) => tab.title === activeTab);
+  const activeData = users?.data.filter((user) => user.category === activeTab);
   const handleUserClick = (id) => {
     setUserId(id);
   };
+
   return (
     <div className={`${styles.dashboard} p-4 col-6`}>
       <h6 className={styles.title}>Dashboard</h6>
       <div className={styles.icons}>
-        {data?.data.length > 0 &&
-          data?.data.map((tab) => {
+        {tabs?.data.length > 0 &&
+          tabs?.data.map((tab) => {
             return (
               <button
                 className={`${styles.icons_item} ${
@@ -40,8 +41,8 @@ export const TabDashboard = ({ data, active, setUserId }) => {
             </tr>
           </thead>
           <tbody>
-            {activeData[0]?.dashboard.length > 0 &&
-              activeData[0]?.dashboard.map((item) => {
+            {activeData?.length > 0 &&
+              activeData.map((item) => {
                 return (
                   <tr key={item.id} onClick={() => handleUserClick(item.id)}>
                     <td>{item.id}</td>

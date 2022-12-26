@@ -3,6 +3,7 @@ import processJsonFile from "./processJsonFile";
 const getAllData = () => {
   const tabs = processJsonFile("tabs.json");
   const users = processJsonFile("users.json");
-  return { tabs, users };
+  const welcomeTabs = processJsonFile("welcometabs.json");
+  return { tabs, users, welcomeTabs };
 };
 export default getAllData;

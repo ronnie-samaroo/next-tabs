@@ -4,67 +4,78 @@
       "id": 243,
       "name": "Maria",
       "status": "New",
-      "date": "25.12.2022 - 14:23"
+      "date": "25.12.2022 - 14:23",
+      "category": "approvals"
     },
     {
       "id": 247,
       "name": "Andrea",
       "status": "New",
-      "date": "25.12.2022 - 23:41"
+      "date": "25.12.2022 - 23:41",
+      "category": "approvals"
     },
     {
       "id": 298,
       "name": "Elle90",
       "status": "Old",
-      "date": "25.12.2022 - 20:15"
+      "date": "25.12.2022 - 20:15",
+      "category": "approvals"
     },
     {
       "id": 109,
       "name": "Helen",
       "status": "New",
-      "date": "21.12.2022 - 17:50"
+      "date": "21.12.2022 - 17:50",
+      "category": "approvals"
     },
     {
       "id": 255,
       "name": "User1",
       "status": "New",
-      "date": "25.11.2022 - 11:23"
+      "date": "25.11.2022 - 11:23",
+      "category": "verifications"
     },
     {
       "id": 257,
       "name": "User2",
       "status": "Old",
-      "date": "22.12.2022 - 22:41"
+      "date": "22.12.2022 - 22:41",
+      "category": "verifications"
     },
     {
       "id": 292,
       "name": "User3",
       "status": "Old",
-      "date": "23.11.2022 - 20:15"
+      "date": "23.11.2022 - 20:15",
+      "category": "verifications"
     },
     {
       "id": 102,
       "name": "User4",
       "status": "New",
-      "date": "17.12.2022 - 15:25"
+      "date": "17.12.2022 - 15:25",
+      "category": "verifications"
     },
     {
       "id": 215,
       "name": "User5",
       "status": "Old",
-      "date": "25.11.2022 - 11:23"
+      "date": "25.11.2022 - 11:23",
+      "category": "requests & reports"
     },
     {
       "id": 209,
       "name": "User6",
       "status": "New",
-      "date": "22.12.2022 - 22:41"
+      "date": "22.12.2022 - 22:41",
+      "category": "requests & reports"
     },
     {
       "id": 122,
       "name": "User7",
       "status": "New",
-      "date": "23.11.2022 - 20:15"
+      "date": "23.11.2022 - 20:15",
+      "category": "requests & reports"
     }
   ],
   "name": "users"

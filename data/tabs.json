@@ -2,87 +2,15 @@
   "data": [
     {
       "id": 1,
-      "title": "approvals",
-      "dashboard": [
-        {
-          "id": 243,
-          "name": "Maria",
-          "status": "New",
-          "date": "25.12.2022 - 14:23"
-        },
-        {
-          "id": 247,
-          "name": "Andrea",
-          "status": "New",
-          "date": "25.12.2022 - 23:41"
-        },
-        {
-          "id": 298,
-          "name": "Elle90",
-          "status": "Old",
-          "date": "25.12.2022 - 20:15"
-        },
-        {
-          "id": 109,
-          "name": "Helen",
-          "status": "New",
-          "date": "21.12.2022 - 17:50"
-        }
-      ]
+      "title": "approvals"
     },
     {
       "id": 2,
-      "title": "verifications",
-      "dashboard": [
-        {
-          "id": 255,
-          "name": "User1",
-          "status": "New",
-          "date": "25.11.2022 - 11:23"
-        },
-        {
-          "id": 257,
-          "name": "User2",
-          "status": "Old",
-          "date": "22.12.2022 - 22:41"
-        },
-        {
-          "id": 292,
-          "name": "User3",
-          "status": "Old",
-          "date": "23.11.2022 - 20:15"
-        },
-        {
-          "id": 102,
-          "name": "User4",
-          "status": "New",
-          "date": "17.12.2022 - 15:25"
-        }
-      ]
+      "title": "verifications"
     },
     {
       "id": 3,
-      "title": "requests & reports",
-      "dashboard": [
-        {
-          "id": 215,
-          "name": "User5",
-          "status": "Old",
-          "date": "25.11.2022 - 11:23"
-        },
-        {
-          "id": 209,
-          "name": "User6",
-          "status": "New",
-          "date": "22.12.2022 - 22:41"
-        },
-        {
-          "id": 122,
-          "name": "User7",
-          "status": "New",
-          "date": "23.11.2022 - 20:15"
-        }
-      ]
+      "title": "requests & reports"
     }
   ],
   "name": "tabs"

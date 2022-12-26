@@ -8,6 +8,7 @@ import { TabDashboard, TabWelcome } from "../components/tabs";
 export default function App(props) {
   const { theme } = useTheme();
   const [userId, setUserId] = useState(null);
+
   return (
     <>
       <Head>
@@ -35,8 +36,16 @@ export default function App(props) {
       <main id="app-main" className={styles.container}>
         <div className="row">
           <div className={`${styles.tab} mt-5`}>
-            <TabDashboard data={props.tabs} setUserId={setUserId} />
-            <TabWelcome data={props.users} userId={userId} />
+            <TabDashboard
+              tabs={props.tabs}
+              users={props.users}
+              setUserId={setUserId}
+            />
+            <TabWelcome
+              users={props.users}
+              userId={userId}
+              welcomeTabs={props.welcomeTabs}
+            />
           </div>
         </div>
       </main>
